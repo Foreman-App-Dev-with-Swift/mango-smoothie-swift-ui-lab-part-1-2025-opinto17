@@ -1,4 +1,4 @@
-//
+////
 //  ContentView.swift
 //  Mango Smoothie Swift UI Lab Part 1
 //
@@ -92,16 +92,18 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack {
+        VStack(alignment: .leading) {
 //Work below in this VStack! ************
-                Text("Hello")
             
-            Text("Mango Smoothie")
+            
+            Text("Mango Smoothie!")
                 .fontWeight(.bold)
-                .font(.title)
-            Text("Mango,Banana,water")
                 .font(.title3)
-            Text("320 callories")
+            Text("Mango, Banana, Water")
+                .font(.title3)
+            Text("320 calories")
+                .font(.callout)
+                .fontWeight(.regular)
 //Work above in this VStack! ************
         }
         
